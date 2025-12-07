@@ -1,29 +1,27 @@
 # Byte-compiled / caching
 __pycache__/
 *.py[cod]
-*.so
 
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb
 
-# Data and models (do NOT commit raw data or large models)
+# Data, models, and other generated artifacts
+# Do NOT commit raw data or large model files to Git
 data/
 models/
+notebooks/datasets/
+*.pkl
+*.tgz
 
 # Virtual environments
 venv/
 env/
 .venv/
 
-# OS files
+# OS generated files
 .DS_Store
 Thumbs.db
-
-# Python packaging
-*.egg-info/
-dist/
-build/
 
 # Logs and temp
 *.log
@@ -32,4 +30,3 @@ build/
 # Editor configs (optional)
 .vscode/
 .idea/
-
